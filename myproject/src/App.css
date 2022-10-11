@@ -1,0 +1,430 @@
+--root {
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  indigo: #6610f2;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App{
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+
+  font-size: 20px;
+
+}
+
+.titl{
+  font-size: 30px;
+ 
+}
+
+.par{
+  margin-top: 16px;
+}
+.par li {
+  display: inline-block;
+  padding: 10px;
+
+}
+
+ul {
+  list-style: none;
+}
+.header{
+  background-color: #343a40;
+  color: #D19C97;;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.link{
+  text-decoration: none;
+  color: #D19C97;
+}
+.link:hover{
+  color: #F6F6F6;
+  font-size: 30px;
+}
+.slid{
+  margin-bottom: 100px;
+}
+
+
+.circ .min {
+  
+  background-color: #343a40;
+  color: #D19C97;
+  height: 120px;
+  padding:40px;
+}
+.min i{
+  font-size: 30px;
+  font-weight: 900;
+
+}
+.min h3{
+  font-size: 25px;
+  margin-top: 5px;
+}
+.cloth{
+  height: 650px;
+
+}
+.men img{
+  width: 500px;
+  height: 500px
+}
+
+.dic{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.dic .content{
+  padding: 50px;
+}
+.show{
+  margin: 150px;
+  font-size: 100px;
+  color: red;
+}
+.info img{
+  width: 200px;
+  height: 300px;
+  margin-right: 10px;
+}
+.post1{
+  padding: 30px;
+  color: #D19C97;
+  margin-top: 50px;
+  font-size: 15px;
+
+}
+.person{
+  background-color: #F6F6F6;
+  
+  
+}
+.person button{
+  margin-top: 20px;
+  border: 1px solid #D19C97;
+  color: #D19C97;
+  font-size: 20px;
+  width: 130px;
+  height: 50px;
+  padding: 10px;
+}
+.person button:hover{
+  background-color: #343a40;
+  border-color: transparent;
+}
+.posts{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.footer{
+  background-color: #343a40;
+  color: #D19C97;
+}
+.cardimage{
+  width: 250px;
+  height: 400px;
+  transition: .5s;
+}
+#card{
+  margin-bottom: 50px;
+  padding: 20px;
+  border-color: transparent;
+  background-color: transparent
+
+}
+#maincard{
+  border-color: transparent;
+  background-color: transparent
+
+
+}
+#card img:hover{
+padding-top: 10px;
+padding-left: 10px;
+
+}
+#card button{
+  border-color: transparent;
+  background-color: #343a40;
+  color: #D19C97;
+  height: 65px;
+  width: 130px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+#card button:hover{
+  background-color:  #F6F6F6;
+  /* color: #F6F6F6; */
+}
+.shoptit{
+  background-size: cover;
+  text-align: center;
+  height: 600px;
+  margin-bottom: 200px;
+  
+}
+.shoptit h1{
+  margin-top: 300px;
+
+  color: #343a40;
+  font-size: 70px;
+}
+.shoptit p{
+  font-size: 50px;
+  color: #D19C97;
+}
+.girl{
+  height: 680px;
+  width: 500px;
+}
+/* //form */
+.form{
+  margin-top: 50px;
+  padding: 30px;
+}
+.labels{
+  text-align: left;
+}
+.phon h4{
+  color: #343a40;
+}
+.labels i{
+  margin-right: 30px;
+  color: #D19C97;
+  font-size: 30px;
+}
+.labels p{
+  color: #D19C97;
+}
+.phon{
+  margin-bottom: 10px;
+}
+.inp input{
+  margin-bottom: 40px;
+  border: 2px solid #D19C97;
+  border-radius: 5px;
+  width: 330px;
+  height: 60px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.area{
+  border: 2px solid #D19C97;
+  border-radius: 5px;
+  padding: 10px;
+
+  width: 350px;
+  height: 200px;
+}
+.form button {
+  margin-top: 60px;
+  border-radius: 5px;
+  border-color: transparent;
+  color: #D19C97;
+  background-color: #343a40;
+font-size: 20px;
+width: 180px;
+height:55px;
+padding: 10px;
+
+}
+.form button:hover{
+  border: 2px solid #D19C97;
+  border-radius: 5px;color: #D19C97;
+  background-color: #fff;
+}
+  
+.cont{
+  margin-top: -50px;
+  padding: 50px;
+  color: #343a40;
+  background-color: #D19C97;
+  height: 400px;
+  
+}
+.cont h1{
+  margin-top: 100px;
+  font-size: 70px;
+  margin-bottom: 20px;
+
+}
+.cont p{
+  color: #fff;
+  line-height: .3;
+}
+.pan{
+display:none;
+}
+.messag{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #D19C97;
+  padding: 50px;
+}
+.send img{
+  height: 400px;
+  position: relative;
+}
+.send ::before{
+  content: "";
+  width: 100px;
+  height: 600px;
+  top: -20px;
+  left: -40px;
+  position: absolute;
+  background-color: #6c757d;
+  z-index: -1;
+
+}
+.leftbot {
+  margin-top: 150px;
+}
+
+.leftbot h1{
+  font-size: 50px;
+}
+.but{
+
+  border-color: transparent;
+  background-color: #343a40;
+  color: #D19C97;
+  height: 65px;
+  width: 130px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+
+
+
+}
+/* Filtter prodect */
+.filter{
+  margin-bottom: 50px;
+
+}
+
+.filter h1{
+  font-size: 70px;
+  color: #D19C97;
+  padding: 20px;
+  margin-top: 10px;
+
+}
+.filtcard{
+  padding: 40px;
+  text-align: center;
+  background-color: #343a40;
+  color: #fff;
+  border-radius: 50%;
+  width: 200px;
+  height: 130px;
+  font-size: 30px;
+  margin-top: 30px;
+
+}
+.cart .add  {
+  padding: 5px;
+  width: 130px;
+
+}
+
+.cart i{
+  color: #D19C97;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.abou{
+  margin-bottom: 50px;
+  padding: 30px;
+}
+.abou h1{
+  margin-top: 50px;
+  color: #D19C97;
+  font-size: 50px;
+
+}
+.abou ul li{
+  list-style:circle;
+  padding: 15px;
+}
+.aboutimag img{
+  width: 500px;
+  margin-top: 50px;
+}
+.linkscloth button{
+  background-color: #343a40;
+  border-color:transparent;
+  color: #D19C97;
+  padding: 10px;
+}
+.more{
+  margin-bottom: 100px;
+}
+.more img{
+  width: 450px;
+}
+.more .detil{
+  margin-top: 100px;
+  margin-left: 150px;
+  padding: 20px;
+}
+.more .ad{
+  background-color: #343a40;
+  color: #D19C97;
+  border-color: transparent;
+  margin-top: 20px;
+  width: 200px;
+  font-size: 25px;
+  padding: 10px;
+}
+.more i{
+  padding: 10px;
+}
+.more .ad:hover{
+  background-color:#fff;
+}
+.ad{
+  margin-left: 10px;
+}
+.ad .det{
+  color: #D19C97;
+}
+.more .det{
+  text-decoration: none;
+  color: #343a40;
+}
+.more{
+  margin-top: 10px;
+}
